@@ -14,22 +14,26 @@ This project demonstrates the ability to place **Market**, **Limit**, and **Stop
 ---
 
 ## 📦 Folder Structure
+📦 Project Folder Structure
+```graphql
 crypto-trading-bot/
 ├── bot/
-│ ├── core.py # Trading logic
-│ ├── logger.py # Logging configuration
-│ └── init.py
+│   ├── __init__.py           # Package initializer 
+│   ├── core.py               # Main bot logic with all order methods
+│   └── logger.py             # Logs API actions and errors
+│
 ├── cli/
-│ └── main.py # Command-line interface
+│   └── main.py               # Command-line interface (CLI) for user interaction
+│
 ├── config/
-│ └── settings.py # Testnet URL and configuration
+│   └── settings.py           # Testnet base URL config
+│
 ├── logs/
-│ └── bot.log # Automatically generated logs
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
-
-
----
+│   └── bot.log               # Auto-generated log file for all actions
+│
+├── requirements.txt          # Python libraries
+└── README.md                 # Project documentation
+```
 
 ## 🚀 Getting Started
 
